@@ -53,7 +53,7 @@ public:
 
   virtual void onInitialize();
 
-  virtual void reset();
+  virtual void reset(){}
 
   virtual void update(float dt, float ros_dt);
 
